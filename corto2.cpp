@@ -37,6 +37,9 @@ int main(){
             cout << "1. Zapato Deportivo - Precio: $80 - Descuento: 20% - Precio Final: " << price1 << " dolares" << endl;
             cout << "2. Zapato Formal - Precio: $120 - Descuento: 20% - Precio Final: " << price2 << " dolares" << endl;
             cout << "3. Zapato Premium - Precio $250 - Descuento: 20% - Precio Final: " << price3 << " dolares" << endl; 
+            cout << "-----------------------------------------------------------------------------------------" << endl;
+            cout << "Selecciona la opcion que deseas comprar" << endl;
+            cin >> shoeOption;
         break;
 
         case 2:
@@ -44,6 +47,9 @@ int main(){
             cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final:" << price4 << " dolares" << endl;
             cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final:" << price5 << " dolares" << endl;
             cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final:" << price6 << " dolares" << endl;
+            cout << "-----------------------------------------------------------------------------------------" << endl;
+            cout << "Selecciona la opcion que deseas comprar" << endl;
+            cin >> shoeOption;
         break;
 
         case 3:
@@ -57,6 +63,9 @@ int main(){
             cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final:" << price4 << " dolares" << endl;
             cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final:" << price5 << " dolares" << endl;
             cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final:" << price6 << " dolares" << endl;
+            cout << "-----------------------------------------------------------------------------------------" << endl;
+            cout << "Selecciona la opcion que deseas comprar" << endl;
+            cin >> shoeOption;
         break;
 
         default:
