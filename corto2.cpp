@@ -3,8 +3,10 @@
 using namespace std;
 
 int main(){
-    int age, gender, shoeOption;
-    double balance = 200, price=0;
+    int age, gender, shoeOption; 
+    double balance = 200; // Balance del cliente
+    double price1 = 64.00, price2 = 96.00, price3 = 200.00; //Precio de zapatos de hombre
+    double price4 = 59.50, price5 = 85, price6 = 212.50; // Precio de zapatos de mujer
 
     cout << "Bienvenido" << endl;
     cout << "Ingresa tu edad para poder brindarte tu talla de zapatos" << endl;
@@ -32,29 +34,29 @@ int main(){
     switch (gender){
         case 1:
             cout << "Este es nuestro catalogo de zapatos disponibles para hombre" << endl;
-            cout << "1. Zapato Deportivo - Precio: $80 - Descuento: 20% - Precio Final: " << price = 64.00 " dolares" << endl;
-            cout << "2. Zapato Formal - Precio: $120 - Descuento: 20% - Precio Final: " << price = 96.00 " dolares" << endl;
-            cout << "3. Zapato Premium - Precio $250 - Descuento: 20% - Precio Final: " << price = 200.00 " dolares" << endl; 
+            cout << "1. Zapato Deportivo - Precio: $80 - Descuento: 20% - Precio Final: " << price1 << " dolares" << endl;
+            cout << "2. Zapato Formal - Precio: $120 - Descuento: 20% - Precio Final: " << price2 << " dolares" << endl;
+            cout << "3. Zapato Premium - Precio $250 - Descuento: 20% - Precio Final: " << price3 << " dolares" << endl; 
         break;
 
         case 2:
             cout << "Este es nuestro catalogo de zapatos disponibles para mujer" << endl;
-            cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final: $59.50" << endl;
-            cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final: $85" << endl;
-            cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final: $212.50" << endl;
+            cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final:" << price4 << " dolares" << endl;
+            cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final:" << price5 << " dolares" << endl;
+            cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final:" << price6 << " dolares" << endl;
         break;
 
         case 3:
             cout << "Este es el catalogo de toda nuestra mercaderia disponible" << endl;
             cout << "-----HOMBRE-----" << endl;
-            cout << "1. Zapato Deportivo - Precio: $80 - Descuento: 20% - Precio Final: $64" << endl;
-            cout << "2. Zapato Formal - Precio: $120 - Descuento: 20% - Precio Final: $96" << endl;
-            cout << "3. Zapato Premium - Precio $250 - Descuento: 20% - Precio Final: $200" << endl;
+            cout << "1. Zapato Deportivo - Precio: $80 - Descuento: 20% - Precio Final: " << price1 << " dolares" << endl;
+            cout << "2. Zapato Formal - Precio: $120 - Descuento: 20% - Precio Final: " << price2 << " dolares" << endl;
+            cout << "3. Zapato Premium - Precio $250 - Descuento: 20% - Precio Final: " << price3 << " dolares" << endl; 
 
             cout << "-----MUJER-----" << endl;
-            cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final: $59.50" << endl;
-            cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final: $85" << endl;
-            cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final: $212.50" << endl;
+            cout << "1. Zapato Casual - Precio: $70 - Descuento: 15% - Precio Final:" << price4 << " dolares" << endl;
+            cout << "2. Zapato Elegante - Precio: $100 - Descuento: 15% - Precio Final:" << price5 << " dolares" << endl;
+            cout << "3. Zapato Premium - Precio: $250 - Descuento: 15% - Precio Final:" << price6 << " dolares" << endl;
         break;
 
         default:
